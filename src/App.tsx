@@ -1,6 +1,4 @@
-import QrScanner from 'qr-scanner';
 import './App.css';
-import { useEffect, useRef, useState } from 'react';
 import QRCodeScanner from './QRCodeScanner';
 
 function App() {
