@@ -1,7 +1,7 @@
 {
   "name": "qrscanner",
-  "private": true,
   "homepage": "https://mikhailsulim.github.io/qrscanner",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "gh-pages": "gh-pages -d dist"
+    "gh-pages": "gh-pages -d dist -f"
   },
   "dependencies": {
     "qr-scanner": "^1.4.2",

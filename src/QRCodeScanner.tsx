@@ -58,7 +58,7 @@ const QRCodeScanner: React.FC = () => {
   
     return (
       <div>
-        <h2>QR Code Scanner</h2>
+        <h1>QR Code Scanner</h1>
         <video ref={videoRef} style={{ width: '100%', height: 'auto' }} />
         {scannedData && <p>Scanned Result: {scannedData}</p>}
         <div>
